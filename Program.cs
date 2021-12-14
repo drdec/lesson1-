@@ -7,13 +7,11 @@ namespace ConsoleApp
     {
         public static void Main()
         {
-            int привет = 10;
+            string userName = Console.ReadLine();
 
-            привет = 20;
+            DateTime data = DateTime.Now;
 
-            Console.WriteLine(привет);
-
-            
+            Console.WriteLine($"Привет {userName}, сегодня  {data}");
         }
     }
 }
